@@ -9,9 +9,9 @@ import tailwindPlugin from "./plugins/tailwind-config.cjs";
 
 /** @type {import('@docusaurus/types').Config} */
 const config = {
-  title: 'My Site',
-  tagline: 'Dinosaurs are cool',
-  favicon: 'img/favicon.ico',
+  title: 'Knowledge @ Sowjanya',
+  tagline: 'SAP is fun',
+  favicon: 'img/favicon-rounded.png',
 
   plugins: [tailwindPlugin],
 
@@ -69,10 +69,10 @@ const config = {
       // Replace with your project's social card
       image: 'img/docusaurus-social-card.jpg',
       navbar: {
-        title: 'My Site',
+        title: 'Sowjanya Kola',
         logo: {
-          alt: 'My Site Logo',
-          src: 'img/logo.svg',
+          alt: 'Sowjanya Kola',
+          src: 'img/favicon-rounded.png',
         },
         items: [
           {

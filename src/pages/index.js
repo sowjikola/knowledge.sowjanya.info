@@ -10,17 +10,18 @@ import styles from './index.module.css';
 function HomepageHeader() {
   const {siteConfig} = useDocusaurusContext();
   return (
-    <header className={clsx('hero hero--primary', styles.heroBanner)}>
+    <header className={clsx(styles.heroBanner)}>
       <div className="container">
+        <img className='w-80 mb-{10px}' src={'/img/favicon-rounded.png'} />
         <Heading as="h1" className="hero__title">
-          {siteConfig.title}
+          Hi. I am Sowjanya
         </Heading>
-        <p className="hero__subtitle">{siteConfig.tagline}</p>
+        <p className="hero__subtitle">Do you know SAP? It is fun, isn't it?</p>
         <div className={styles.buttons}>
           <Link
             className="button button--secondary button--lg"
             to="/docs/intro">
-            Docusaurus Tutorial - 5min ⏱️
+            Lets explore SAP
           </Link>
         </div>
       </div>
@@ -32,7 +33,6 @@ export default function Home() {
   const {siteConfig} = useDocusaurusContext();
   return (
     <Layout
-      title={`Hello from ${siteConfig.title}`}
       description="Description will go into a meta tag in <head />">
       <HomepageHeader />
       <main>
